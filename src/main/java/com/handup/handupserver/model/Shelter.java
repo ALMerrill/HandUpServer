@@ -1,11 +1,10 @@
 package com.handup.handupserver.model;
 
 import java.util.Optional;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter @Setter
-public class Shelter {
+import lombok.Data;
+
+public @Data class Shelter {
 	private String shelterName;
     private String shelterAddress;
     private String shelterCity;
